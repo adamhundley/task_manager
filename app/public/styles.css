@@ -1,0 +1,10 @@
+.test { font-family: monospace;
+  background-color: #caddee;
+
+}
+.container {text-align: center;}
+
+.task-title {font-size: 100px;}
+.task-format {font-size: 30px;}
+
+a {text-decoration: none;}
