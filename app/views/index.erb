@@ -4,6 +4,11 @@
 <h2>Current Tasks</h2>
 <% @tasks.each do |task| %>
 <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+<a href="/tasks/<%= task.id %>/edit"><input class="btn btn-warning" type="button" name="name" value="Edit"></a>
+<form action="/tasks/<%= task.id %>" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input class="btn btn-danger" type="submit"  value="Delete">
+</form>
 <% end %>
 <br>
 <!-- <a href="/tasks/new">New Task</a> -->

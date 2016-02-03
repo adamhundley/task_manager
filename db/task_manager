@@ -1,21 +1,15 @@
 ---
 tasks:
 - id: 1
-  title: Worship Schedule
+  title: Worship Schedule OK
   description: Schedule out the rest of Sundays through March for NCC
 - id: 2
   title: Worship Schedule
   description: Schedule out the rest of Sundays through March for NCC
-- id: 3
-  title: Test Task
-  description: This is a test task for the boss
 - id: 4
   title: VEGAS
   description: "book tix to vegas and hotel\r\n"
-- id: 5
-  title: ok
-  description: ok
-- id: 6
-  title: ''
-  description: ''
-total: 6
+- id: 7
+  title: Worship Schedule for 2/28
+  description: Help James
+total: 7
